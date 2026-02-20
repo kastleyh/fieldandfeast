@@ -1,0 +1,95 @@
+/* CSS BY (Kadia Astley-Harwood) */
+/* IMPORTED FONTS */ @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+/* CSS RESET */
+/* ROOT VARIABLES */
+:root{
+    midnight-blue: #1F2A44;
+olive-green: #76885B;
+champagne-gold: #E5C185;
+linen: #F8F4EC;
+dark-charcoal: #2B2B2B;
+soft-white: #FAF9F6;
+}
+/* GLOBAL STYLES (mobile first/small) */
+/* MEDIA QUERY (medium) */
+@media screen and (min-width:600px;)
+{
+
+}
+
+/* MEDIA QUERY (large) */
+@media screen and (min-width: 900px;)
+{
+
+}
+
+/* MEDIA QUERY (xl) */
+@media screen and (min-width: 1200px;)
+{
+
+}
+
+header h1{
+    font-size: 26px;
+    color:linen ;
+    font-family: 'playfair display';
+
+}
+
+
+body{
+    background-color: line;
+
+}
+
+main{
+
+}
+
+header{
+
+}
+
+header p{
+    color: #E5C185;
+    text-align: center;
+}
+
+header img{
+    display: block;
+    
+
+}
+
+h1{
+    font-size: 26px;
+    font-family: 'playfair display';
+    text-align: center;
+}
+
+h2{
+    font-size: 20px;
+    font-family: 'playfair display';
+    text-align: center;
+}
+
+h3{
+    font-size: 16px;
+    font-family: 'playfair display';
+    text-align: center;
+}
+nav{
+color:#1F2A44;
+display:block;
+background-color: #E5C185;
+text-align: center;
+padding: 10px;
+margin: 10px;
+font-size: 16px;
+font-family: 'playfair display';
+}
+
+nav ul{
+list-style: none;
+display: grid;
+}

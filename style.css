@@ -258,7 +258,7 @@ dining{
     width:50%;
 }
 
-section > figure{
+section figure{
     width:48%;
     display:inline-block;
 
@@ -277,7 +277,7 @@ main{
     margin: auto;
 }
 
-section > figure{
+section figure{
     width:30%;
 }
 }
@@ -293,7 +293,7 @@ header h1{
     font-size: 48px;
 }
 
-section > figure{
+section figure{
     width:18%;
 
 }

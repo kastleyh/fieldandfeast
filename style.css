@@ -142,64 +142,82 @@ main{
     padding: 20px;
 }
 
-offerings{
-    background-color: --olive-green;
-    color: --soft-white;
-    padding: 5px;
+.offerings{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 10px;
     border-radius:10px;
     margin-bottom:10px;
+    letter-spacing: 1px;
+    box-shadow: 2px 3px 8px 0px;
 }
 
-dining{
-    background-color: --olive-green;
-    color: --soft-white;
-    padding: 5px;
+
+
+.dining{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 10px;
     border-radius:10px;
     margin-bottom:10px;
+    letter-spacing: 1px;
 }
 
-monthly{
-    background-color: --olive-green;
-    color: --soft-white;
-    padding: 5px;
+.monthly{
+    background-color: var(--olive-green);
+    color: var(--soft-white);
+    padding: 10px;
     border-radius:10px;
     margin-bottom:10px;
+    letter-spacing: 1px;
 }
 
 .monthly ul{
     list-style-type: disc;
-    padding-left: 5px;
-    margin-bottom: 5px;
+    padding-left: 15px;
+    margin-bottom: 10px;
 }
 
 figure{
     background-color: var(--soft-white);
-    border-radius: 5px;
+    border-radius: 10px;
     overflow: hidden;
-    margin: 5px;
-    box-shadow: 5px 2px --dark-charcoal;
+    margin-bottom: 15px;
+    box-shadow: 2px 3px 8px 0px;
+    display: block;
+
 }
 
 figure img{
     display:block;
+    
+    height: auto;
+    width: 100%;
 
 }
 
 figcaption{
-    padding: 5px;
+    padding: 10px;
     text-align: center;
     font-style: italic;
+    font-size: 14px;
+    background-color: var(--soft-white);
+
+}
+
+section p{
+    
+    line-height: 20px;
 }
 
 section a{
     display: block;
     background-color: var(--olive-green);
     text-align: center;
-    padding: 5px;
     color: var(--soft-white);
     font-weight: bold;
-    margin:10px;
-    padding: 5px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     border-radius: 5px;
 }
 
@@ -207,7 +225,15 @@ footer{
     background-color: var(--midnight-blue);
     color: var(--soft-white);
     text-align: center;
-    padding:5px 2px;
+    padding-top:5px;
+    padding-bottom: 40px;
+    height: 100px;
+}
+
+footer address{
+    padding-top:20px;
+    padding-bottom: 20px;
+    line-height: 20px;
 }
 
 footer a{
@@ -215,7 +241,10 @@ footer a{
     margin:10px;
     text-decoration: none;
     text-align: center;
+    padding-bottom: 20px;
+
 }
+
 /* MEDIA QUERY (medium) */
 @media screen and (min-width:600px)
 {
@@ -228,18 +257,46 @@ dining{
     display: inline-block;
     width:50%;
 }
+
+section > figure{
+    width:48%;
+    display:inline-block;
+
+}
 }
 
 /* MEDIA QUERY (large) */
-@media screen and (min-width: 900px;)
+@media screen and (min-width: 900px)
 {
+header h1{
+    font-size: 50px;
 
+}
+main{
+    max-width: 1000px;
+    margin: auto;
+}
+
+section > figure{
+    width:30%;
+}
 }
 
 /* MEDIA QUERY (xl) */
-@media screen and (min-width: 1200px;)
+@media screen and (min-width: 1200px)
 {
+header image {
+    max-width: 150px;
 
+}
+header h1{
+    font-size: 48px;
+}
+
+section > figure{
+    width:18%;
+
+}
 }
 
 
